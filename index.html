@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rate CLHS teachers!">
+    <title>Maze-Wrench</title>
+    <link rel="icon" type="image/png" href="M.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center>
+    
+    <div style="margin-bottom: 40px;">
+        <img src="Maze-Wrench.png" style="width: 60vh;">
+    </div>
+    
+    <a>“To die hating them, that was freedom.”</a>
+    <div style="margin-bottom: 100px;"></div>
+    
+    <h2>Worst Teachers of the Month</h2>
+    <a>None decided.</a>
+
+    <div style="margin-bottom: 300px;"></div>
+
+    <div></div>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhTzRey5L8EUyxNw5f9G8lnGbEJcK9WArNRT2W4kg8gik-MA/viewform?usp=dialog">Press this to rate a teacher!</a>
+    </div>
+    <input id="searchbar" 
+        onkeyup="search_animal()" 
+        type="text" name="search" 
+        placeholder="Search for teachers...">
+
+    <ul style="list-style: none; padding-left: 0;">
+        <li class="Names">
+            <h1>Ms. Molen</h2>
+            <h2 class="Stars">★★★★☆</h1>
+        </li>
+        <li class="Names">
+            <h1>Ms. Fraser</h2>
+            <h2 class="Stars">★★★★☆</h1>
+        </li>
+        <li class="Names">
+            <h1>Ms. Palod</h2>
+            <h2 class="Stars">★★★★★</h1>
+        </li>
+        <li class="Names">
+            <h1>Mr. Jackson</h2>
+            <h2 class="Stars">★★★☆☆</h1>
+        </li>
+        <li class="Names">
+            <h1>Ms. Weitzenhoffer</h2>
+            <h2 class="Stars">★★★★☆</h1>
+        </li>
+        <li class="Names">
+    <h1>Ms. Abagi</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Ache</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Alecio</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Alewine</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Alladin</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Allred</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Andrews</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Archibeque</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Ayodele</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Aytch Henderson</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Bahn-Cable</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Bailey</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Baity</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Banks</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Beavers</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Bellamy</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Beltran</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Billingsley</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Bish</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Blackwell</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Blades</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Bobino</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Bonnin</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Braley</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Braswell</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Bronstad</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Burmeister</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Burton</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Butler</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Carter</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Casey</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Catletti</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Charles</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Chatterjee</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Cleveland</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Cockrell</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Conklin</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Corona</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Courts</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Daniels</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Davidson</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Davis-Jackson</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Dennis</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Derrick</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Devathosh</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Diggs</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Dinstel</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Domingue</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Dominguez</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Dovzhuk</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Dowell</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Duplechain</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Eller</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Eller</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Elliott</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Epps</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Escamilla</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Escareno Martinez</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Escobar-Gomez</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Fasci</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Fernandez</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Fitzpatrick</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Fox</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Freed</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Gatling</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Gbandi</h1>
+    <h2 class="Stars">★★★☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Ghosh</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Gilfillan</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Gonzalez</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Goodlette</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Goodrum</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Graves</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Gray</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Green</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Grobe</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Ha</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Hahm</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Hall</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Hamilton</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Harris-Sani</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Harrison</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Hastings</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Hatten</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Helton</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Hicks</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Hightower</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Holden</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Hollowell</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Holy</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Hornbeak</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Hughes</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Irubor</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Janca</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Janousek</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Jasso</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Jimenez</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Johnson</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Johnson</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Jordan</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Kalghatgi</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Kennamore</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Khan</h1>
+    <h2 class="Stars">★★☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Kiser</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Klaus</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Kober</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Lane-Rios</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Lavine</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Leach</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Lee</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Lee</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Limonta</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Locke</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Loftin</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Lopez Romero</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Luce</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Madden</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Mahnke</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Mahoney</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Malloy</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Martin</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Mathis</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Mccorley</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Mcdaniel</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Mckinney</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Mcwashington</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Merritt</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Miller</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Mills</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Mitchell</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Mixon</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Moellmer</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Montgomery</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Moore</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. More</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Mulholland</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Murillo</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Neumann</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Nguyen</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Nguyen</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Nzewi</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Omokaro</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Omoruyi</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Ortiz</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Oyeteju</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Palod-Eminga</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Patrick</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Peck</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Perez</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Perez-Garcia</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Polanco</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Politte</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Pool</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Portis-Murray</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Pye</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Quaderi</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Quezada</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Ramirez</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Rashid</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Rau</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Rendon</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Reyes-Smoote</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Richards</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Robles</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Rocha</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Rogers</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Rollins</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Salazar</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Salazar</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Sandlin</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Schroers</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Schutte</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Scott</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Seibert</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Semones</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Sherman</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Simmons</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Skelton</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Skinner</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Smith</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Smith</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Smith</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Smith</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Solis Figueroa</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Sorto</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Soto</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Steffen</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Styers</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Swiney</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Taylor</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Taylor</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Taylor</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Thompson</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Tigranyan</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. To</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Tovarez</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Tran</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Trius</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Trius</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Trotter</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Tryon</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Turks</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Turner</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Uddin</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Utsey</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Vantreese</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Vega</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Villarreal</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Wang</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Watkins</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Wehner</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Wells</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. White</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Williams</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Mr. Wright-Lester</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+<li class="Names">
+    <h1>Ms. Yelton</h1>
+    <h2 class="Stars">☆☆☆☆☆</h2>
+</li>
+    </ul>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Made by Y.S
+ ★
+ ☆
