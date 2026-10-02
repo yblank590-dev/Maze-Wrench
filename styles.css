@@ -9,10 +9,17 @@ body {
 }
 
 body {
-    /* Rectangle 18 */
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
 
-    background: conic-gradient(
+  background: conic-gradient(
     from 180deg at 50% 50%,
     #FFFFFF 0deg,
     #BFCEFF 120deg,
@@ -20,12 +27,9 @@ body {
     #BFCEFF 360deg
   );
 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    font-family: Arial, Helvetica, sans-serif;
+  pointer-events: none;
 }
+
 
 ul {
     width: 100%;
