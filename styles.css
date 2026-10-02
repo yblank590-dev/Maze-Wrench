@@ -9,7 +9,11 @@ body {
 }
 
 body {
-    background-image: url("Rectangle 18.png");
+    /* Rectangle 18 */
+
+
+    background: conic-gradient(from 180deg at 50% 50%, #FFFFFF 0deg, #BFCEFF 360deg);
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
