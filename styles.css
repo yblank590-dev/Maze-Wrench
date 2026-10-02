@@ -12,7 +12,13 @@ body {
     /* Rectangle 18 */
 
 
-    background: conic-gradient(from 180deg at 50% 50%, #FFFFFF 0deg, #BFCEFF 360deg);
+    background: conic-gradient(
+    from 180deg at 50% 50%,
+    #FFFFFF 0deg,
+    #BFCEFF 120deg,
+    #FFFFFF 240deg,
+    #BFCEFF 360deg
+  );
 
     background-repeat: no-repeat;
     background-size: cover;
